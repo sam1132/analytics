@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;900&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-[poppins] bg-black">
+    <header
+      class=" nav flex items-center justify-between max-w-[1540px] mx-auto py-4 px-6 h-24"
+    >
+      <h1 class="font-bold text-4xl text-[#00df9a]">DATA.</h1>
+      <ul class="text-white hidden md:flex gap-6 nav-links">
+        <li class="md:text-2xl"><a href="#">Home</a></li>
+        <li class="md:text-2xl "><a href="#card__container" class="nav-link">Explore work</a></li>
+        <li class="md:text-2xl "><a href="#section-news" class="nav-link">Contact us</a></li>
+        <li class="md:text-2xl "><a href="#section--footer" class="nav-link">About us</a></li>
+      </ul>
+      <div class="md:hidden">
+        <button class="md:hidden" id="menu">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-14 h-12 text-white"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </button>
+        <button class="hidden close">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-14 h-12 text-white"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+      <ul
+        class="text-white menu__close bg-gray-500 fixed top-0 left-[-100%]  p-6 h-full w-[60%] border-r-4 transition-all ease-in-out duration-500 border-r-gray-800"
+      >
+      <h1 class="font-bold text-4xl text-[#00df9a] p-4">DATA.</h1>
+        <li
+          class="p-4 text-xl cursor-pointer hover:border-b-2 border-b-gray-800"
+        >
+          <a href="#" >Explore work</a>
+        </li>
+        <li
+          class="p-4 text-xl cursor-pointer hover:border-b-2 border-b-gray-800"
+        >
+          <a href="#">Home</a>
+        </li>
+        <li
+          class="p-4 text-xl cursor-pointer hover:border-b-2 border-b-gray-800"
+        >
+          <a href="#" >About us</a>
+        </li>
+        <li
+          class="p-4 text-xl cursor-pointer hover:border-b-2 border-b-gray-800"
+        >
+          <a href="#" >Contact us</a>
+        </li>
+      </ul>
+    </header>
+    <section
+      class="  grid place-content-center max-w-[1540px] mx-auto py-4 px-6 mt-48"
+    >
+      <p class="text-[#00df9a] font-semibold text-xl text-center">
+        GROWING WITH DATA ANALYTICS
+      </p>
+      <h1 class="text-6xl mt-10 text-white text-center">Grow with data.</h1>
+      <h1 class="text-white mt-10 text-center text-5xl">
+        Fast,Flexible financing for <span class="text-gray-600">BTB</span>
+      </h1>
+      <p class="text-gray-600 mt-10 text-center md:text-xl">
+        Monitor your data anlalytics to increase revenue for BTB, BTC, & SASS
+        platforms
+      </p>
+      <div class="mt-10 flex items-center justify-center btn-start">
+        <a
+          href="#section--1"
+          class="bg-[#00df9a] text-center p-3 rounded-md text-[#000000]"
+          ><span class="font-bold text-xl">Get Started</span></a
+        >
+      </div>
+    </section>
+    <section class="bg-white mt-48 section " id="section--1">
+      <div
+        class="max-w-[1540px] mx-auto py-4 px-6 md:flex md:items-center md:justify-center"
+      >
+        <div>
+          <img
+            src="analytic-graphic.jpg"
+            class="object-contain rounded-xl"
+            alt="analytic photo"
+          />
+        </div>
+        <div class="mt-10 px-2 md:text-left md:mx-10">
+          <p class="text-[#00df9a] font-bold text-xl mb-5">
+            DATA ANALYTICS DASHBOARD
+          </p>
+          <h1 class="font-bold text-2xl mb-5">
+            Manage Data Analytics Centrally
+          </h1>
+          <p class="text-gray-600">
+            "Explore real-time insights on our Dashboard—your go-to for data
+            analytics. Visualize key metrics, track trends, and make informed
+            decisions effortlessly. Customizable and user-friendly, it provides
+            a comprehensive view of your data landscape. Stay ahead, optimize
+            strategies, and drive growth with the power of analytics at your
+            fingertips."
+          </p>
+          <div>
+            <div class="mt-10 flex items-center justify-center">
+              <a
+                href="#"
+                class="bg-black text-center p-3 rounded-md text-[#00df9a]"
+                ><span class="text-xl">Get Started</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="section-news " class=" section mt-40 max-w-[1540px] mx-auto px-6 grid lg:grid-cols-3 ">
+      <div class="lg:col-span-2">
+        <h1 class="text-white text-2xl mb-4">
+          Want tips & tricks to optimize your flow?
+        </h1>
+        <p class="text-white">Sign up to our newsletter and stay up to date</p>
+      </div>
+      <div>
+        <input
+          type="email"
+          class="w-full p-2 rounded-md outline-none "
+          placeholder="Enter your email "
+        />
+        <button class="bg-[#00df9a] w-32 h-10 mt-5 rounded-md">
+          Notify Me
+        </button>
+        <p class="text-white mt-4">
+          We care aabout the protection of your data. Read our
+          <a href="#" class="text-[#00df9a] underline">Privacy policy</a>
+        </p>
+      </div>
+    </section>
+    <section id="card__container" class="section bg-white mt-28 ">
+      <div class="max-w-[1540px] mx-auto px-6 grid md:grid-cols-3 gap-8 ">
+        <div class="mt-16 w-fullflex flex-col shadow-xl p-4  rounded-2xl my-10 hover:scale-105  cursor-pointer duration-300">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-20  mx-auto mt-[-2.7rem]"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"
+              />
+            </svg>
+            <h1 class="font-bold text-2xl py-8 text-center">Single User</h1>
+            <p class="font-semibold text-4xl mt-5 text-center">$149</p>
+          <div class="mt-10 text-center font-medium">
+            <p class="p-4 text-xl border-t border-t-gray-100">1 User Allowed</p>
+            <p class="p-4 text-xl border-t border-t-gray-100">Send up to 5GB</p>
+            <p class="p-4 text-xl border-t border-t-gray-100">500 GB Storage</p>
+            <button class="bg-[#00df9a] p-4 w-[60%] my-5 rounded-lg hover:bg-black hover:text-[#00df9a] ">Start Trial</button>
+          </div>
+        </div>
+        <div class="mt-16 w-fullflex flex-col shadow-xl p-4 my-10 rounded-2xl  hover:scale-105  cursor-pointer duration-300">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-20 mx-auto mt-[-2.7rem]">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z" />
+          </svg>
+          
+          <h1 class="font-bold text-2xl py-8 text-center">Partnership</h1>
+          <p class="font-semibold text-4xl mt-5 text-center">$199</p>
+        <div class="mt-10 text-center font-medium">
+          <p class="p-4 text-xl border-t border-t-gray-100">1 TB Storage</p>
+          <p class="p-4 text-xl border-t border-t-gray-100">2 User Allowed</p>
+          <p class="p-4 text-xl border-t border-t-gray-100">Send up to 15GB</p>
+          <button class="bg-[#00df9a] p-4 w-[60%] my-5 rounded-lg hover:bg-black hover:text-[#00df9a] ">Start Trial</button>
+        </div>
+      </div>
+      <div class="mt-16 w-fullflex flex-col shadow-xl p-4  rounded-2xl  my-10 hover:scale-105  cursor-pointer duration-300">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-20 mx-auto mt-[-2.7rem]">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
+        </svg>
+        
+        <h1 class="font-bold text-2xl py-8 text-center">Group Account</h1>
+        <p class="font-semibold text-4xl mt-5 text-center">$299</p>
+      <div class="mt-10 text-center font-medium">
+        <p class="p-4 text-xl border-t border-t-gray-100">2 TB Storage</p>
+        <p class="p-4 text-xl border-t border-t-gray-100">10 User Allowed</p>
+        <p class="p-4 text-xl border-t border-t-gray-100">Send up to 20GB</p>
+        <button class="bg-[#00df9a] p-4 w-[60%] my-5 rounded-lg hover:bg-black hover:text-[#00df9a]">Start Trial</button>
+      </div>
+    </div>
+      </div>
+    </section>
+    <footer id="section--footer" class=" section max-w-[1540px] mx-auto mt-36 px-6 grid md:grid-cols-5 md:gap-x-8 mb-5 ">
+      <div class="mt-10">
+        <h1 class="text-4xl text-[#00df9a]">DATA.</h1>
+        <p class="text-gray-500 mt-4">
+          Lorem ipsum dolor sit, amet consectetur 
+          adipisicing elit. Repellendus ullam facilis perferendis 
+          maxime officia dolorem!
+        </p>
+        <ul class="text-white list-none flex justify-evenly mt-5 ">
+          <li class="cursor-pointer"><ion-icon size="large" name="logo-instagram"></ion-icon></li>
+          <li class="cursor-pointer"><ion-icon size="large" name="logo-linkedin"></ion-icon></li>
+          <li class="cursor-pointer"><ion-icon size="large" name="logo-facebook"></ion-icon></li>
+          <li class="cursor-pointer"><ion-icon size="large"  name="logo-twitter"></ion-icon></li>
+          <li class="cursor-pointer"><ion-icon size="large" name="logo-github"></ion-icon></li>
+        </ul>
+      </div>
+      <div class="mt-10 cursor-pointer">
+        <h2 class="text-gray-600 text-2xl mb-2 ">Solutions</h2>
+        <ul class="list-none text-white px-6">
+          <li class="p-2 text-xl hover:border-b hover:border-b-gray-500 ease-in w-1/3 duration-200 delay-200">Analytics</li>
+          <li class="p-2 text-xl hover:border-b hover:border-b-gray-500 ease-in w-1/3 duration-200 delay-200">Commerce</li>
+          <li class="p-2 text-xl hover:border-b hover:border-b-gray-500 ease-in w-1/3 duration-200 delay-200">Marketing</li>
+          <li class="p-2 text-xl hover:border-b hover:border-b-gray-500 ease-in w-1/3 duration-200 delay-200">Insights</li>
+        </ul>
+      </div>
+      <div class="mt-10 cursor-pointer">
+        <h2 class="text-gray-600 text-2xl mb-2 ">Support</h2>
+        <ul class="list-none text-white px-6">
+          <li class="p-2 text-xl hover:border-b hover:border-b-gray-500 ease-in w-1/3 duration-200 delay-200">Pricing</li>
+          <li class="p-2 text-xl hover:border-b hover:border-b-gray-500 ease-in w-1/3 duration-200 delay-200">Documentation</li>
+          <li class="p-2 text-xl hover:border-b hover:border-b-gray-500 ease-in w-1/3 duration-200 delay-200">Guides</li>
+          <li class="p-2 text-xl hover:border-b hover:border-b-gray-500 ease-in w-1/3 duration-200 delay-200">API Status</li>
+        </ul>
+      </div>
+      <div class="mt-10 cursor-pointer">
+        <h2 class="text-gray-600 text-2xl mb-2 ">Company</h2>
+        <ul class="list-none text-white px-6">
+          <li class="p-2 text-xl hover:border-b hover:border-b-gray-500 ease-in w-1/3 duration-200 delay-200">About</li>
+          <li class="p-2 text-xl hover:border-b hover:border-b-gray-500 ease-in w-1/3 duration-200 delay-200">Blog</li>
+          <li class="p-2 text-xl hover:border-b hover:border-b-gray-500 ease-in w-1/3 duration-200 delay-200">Jobs</li>
+          <li class="p-2 text-xl hover:border-b hover:border-b-gray-500 ease-in w-1/3 duration-200 delay-200">Press</li>
+          <li class="p-2 text-xl hover:border-b hover:border-b-gray-500 ease-in w-1/3 duration-200 delay-200">Partners</li>
+        </ul>
+      </div>
+      <div class="mt-10 cursor-pointer">
+        <h2 class="text-gray-600 text-2xl mb-2 ">Legal</h2>
+        <ul class="list-none text-white px-6">
+          <li class="p-2 text-xl hover:border-b hover:border-b-gray-500 ease-in w-1/3 duration-200 delay-200 ">Claim</li>
+          <li class="p-2 text-xl hover:border-b hover:border-b-gray-500 ease-in w-1/3 duration-200 delay-200">Terms</li>
+          <li class="p-2 text-xl hover:border-b hover:border-b-gray-500 ease-in w-1/3 duration-200 delay-200">Privacy</li>
+
+        </ul>
+      </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+  <script>
+    const menu = document.querySelector("#menu");
+    const mobileMenu = document.querySelector(".menu__close");
+    const closeMenu = document.querySelector(".close");
+    const goToBtn = document.querySelector('.btn-start');
+    const section1 = document.querySelector('#section--1');
+    const header =document.querySelector('.nav');
+    const navHeight = header.getBoundingClientRect().height;
+    let nav;
+    
+
+    ////////////////////////////////////////////////////////////
+    // menu buttons eventlistner
+    ///////////////////////////////////////////////////////////
+    const toggle = function () {
+      if (!nav) {
+        mobileMenu.classList.remove("left-[-100%]");
+        mobileMenu.classList.add("left-0","fixed");
+      } else {
+        mobileMenu.classList.remove("left-0");
+        mobileMenu.classList.add("left-[-100%]");
+      }
+    };
+    menu.addEventListener("click", function () {
+      menu.classList.add("hidden");
+      closeMenu.classList.remove("hidden");
+      nav = false;
+      toggle();
+    });
+    closeMenu.addEventListener("click", () => {
+      menu.classList.remove("hidden");
+      closeMenu.classList.add("hidden");
+      nav = true;
+      toggle();
+    });
+    /////////////////////////////////////////////////////////
+    goToBtn.addEventListener('click', (e) => {
+  e.preventDefault(); 
+
+  section1.scrollIntoView({ behavior: "smooth" });
+});
+  
+document.querySelector('.nav-links').addEventListener('click',(e)=>{
+  e.preventDefault();
+  if(e.target.classList.contains('nav-link')){
+     const id = e.target.getAttribute('href');
+     document.querySelector(id).scrollIntoView({behavior:"smooth"});
+  }
+});
+
+const revealSection = document.querySelectorAll('.section');
+const reveal = function(entries,observer){
+  const [entry] = entries;
+  if(!entry.isIntersecting) return
+  
+  entry.target.classList.remove('opacity-0','transform','translate-y-[8rem]');
+  observer.unobserve(entry.target);
+  
+}
+const observer = new IntersectionObserver(reveal,{
+  root:null,
+  threshold:0.25,
+});
+revealSection.forEach(section =>{
+  observer.observe(section);
+  section.classList.add('opacity-0','transform','translate-y-[8rem]','transition-transform','duration-700','ease-in-out');
+});
+
+
+
+   
+  </script>
+</html>
